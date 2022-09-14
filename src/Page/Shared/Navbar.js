@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import icon from "../Image/icon.png"
+// import icon from "../Image/icon.png"
 import './Navbar.css'
 const Navbar = () => {
     const manuItem = <>
@@ -22,7 +22,7 @@ const Navbar = () => {
                         {manuItem}
                     </ul>
                 </div>
-                <img className='icon mt-10' src={icon} alt="" />
+                {/* <img className='icon mt-10' src={icon} alt="" /> */}
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
